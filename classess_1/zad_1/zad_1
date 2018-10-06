@@ -1,0 +1,30 @@
+a       a
+b       ab
+c       a|b
+d       a[a-k]
+e       [a-c]{3}
+f       a[a-c]{3}a
+g       \d+[0,2,4,6,8]+
+h       [-+]?\d+
+i       [0-9]{2}-[0-9]{3}
+j       [\w.]+
+k       [a-zA-Z_][a-zA-Z0-9_]{0,31}
+l       ^a[\d\w]+a$
+m       ^\s*#.*
+n       napis.*
+o       [\d+, ]+
+p       [\d+-]
+q       (.?)(.?)(.?)(.?)(.?)(.?)(.?).?\7\6\5\4\3\2\1
+r       niewykonanalne
+s       [0-9.e-]+
+t       ^total.*\n(-.*\n)
+u       [a-z]{3}ąc[aye] -> dokładnie 6 znaków
+u       [a-z]{3,}ąc[aye] -> conajmniej 6 znaków
+u       [a-z]{0,2}ąc[aye] -> conajmniej 6 znaków
+v       ^.{40,}$
+v       ^.{0,39}$
+
+
+
+
+                  
