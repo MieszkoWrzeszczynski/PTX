@@ -1,0 +1,7 @@
+1. "ala ma kota, ktory je ogorki".scan(/\w+/).length
+2. "ala ma ala kota, kota  ktory je ogorki".scan(/\w+/).uniq.length
+3. "ala ma 10 kotów i 1 psa i 2 koty".scan(/\d+/).map(&:to_i).reduce(0){|v,a| a+v}
+4. "ala ala ala ala ma ma kota".scan(/\w+/).reduce(Hash.new(0)){|acc,v| acc[v] += 1 ; acc}.to_a
+5. File.open('a','r').readlines.map(&:chomp) & File.open('b','r').readlines.map(&:chomp)
+6. 
+
